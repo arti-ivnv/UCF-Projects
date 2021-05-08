@@ -1,2 +1,4 @@
 # UCF-Projects
-Here are my school projects.
+In this repository I have the projects from my university classes.
+
+## COP
