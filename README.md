@@ -29,7 +29,9 @@ gcc program1.c
 ## COP 4710
 
 ## COP 3330 (Object Oriented Programming using Java)
-Assignment 1 is done
+This course is designed to provide concepts in object oriented programming (classes, objects, methods, encapsulating, inheritance, interfaces) and the expression of these concepts in the programming language Java.  
+
+Topics covered in this course include: classes; objects; methods; data types; algorithms; control structures; methods; container classes; inheritance; polymorphism; exception handling; graphical user interface (GUI); abstraction.  
 
 
 ## P.S.
