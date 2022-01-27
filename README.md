@@ -11,6 +11,7 @@ gcc program1.c
 ```
 
 ## CDA 3103C
+CDA 3103 introduces the concepts of Instruction Set Architecture and computing performance. This includes logic design, computer arithmetic, the MIPS assembly language, data path and control unit design, and memory hierarchies.
 
 ## CAP 4630
 
