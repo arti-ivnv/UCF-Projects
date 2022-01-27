@@ -19,7 +19,7 @@ This course is designed to provide a fundamental  understanding of real and virt
 
 ## COP 3503C
 
-## COP 4020
+## COP 4020 (Programming Languagea)
 Haskell   Intro to Functional Programming / List Comprehensions
 
 Haskell   Recursion / Types and Type Classes
