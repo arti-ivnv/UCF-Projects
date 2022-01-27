@@ -1,0 +1,7 @@
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\bin\Debug\FirstCSOop.exe.config
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\bin\Debug\FirstCSOop.exe
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\bin\Debug\FirstCSOop.pdb
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\obj\Debug\FirstCSOop.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\obj\Debug\FirstCSOop.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\obj\Debug\FirstCSOop.exe
+C:\Users\Artem\Desktop\FirstCSOop\FirstCSOop\FirstCSOop\obj\Debug\FirstCSOop.pdb
