@@ -13,6 +13,7 @@ CDA 3103 introduces the concepts of Instruction Set Architecture and computing p
 This course is designed to provide a basic understanding security theory and practice for modern computing environments. Students will acquire proficiency in a number of classic and modern symmetric and public key cryptographic methods. Students will explore important topics in key exchange mechanisms; modes of operation; malware attacks, vulnerabilities, and defenses; network, web, and email security; digital rights management; and legal and ethical issues.
 
 ## COP 3402
+This course is designed to provide a fundamental  understanding of real and virtual machines as language processor and the implementation of compilers. We will study the processor as an instruction interpreter. Compilers, assemblers,  linkers and loaders, and virtual machines will be presented as systems software  for program development. An introduction to Operating system will be given. 
 
 ## COP 3502C
 
