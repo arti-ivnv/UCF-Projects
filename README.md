@@ -4,13 +4,7 @@ In this repository I have the projects from my university classes.
 ## COP 3223 (Introduction to Programming with C)
 Course covers basic and some of the advanced concepts of a C language.
 
-### Compile and run
-```bash
-gcc program1.c
-./a.out
-```
-
-## CDA 3103C
+## CDA 3103C (Computer logic)
 CDA 3103 introduces the concepts of Instruction Set Architecture and computing performance. This includes logic design, computer arithmetic, the MIPS assembly language, data path and control unit design, and memory hierarchies.
 
 ## CAP 4630
