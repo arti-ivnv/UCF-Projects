@@ -21,7 +21,9 @@ This course is designed to provide a fundamental  understanding of real and virt
 
 ## COP 4020
 Haskell   Intro to Functional Programming / List Comprehensions
+
 Haskell   Recursion / Types and Type Classes
+
 Haskell   Higher order functions / Modules
 Haskell   Input and output
 Python    Functions and Values / List Comprehensions
