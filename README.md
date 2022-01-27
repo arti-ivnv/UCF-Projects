@@ -10,6 +10,7 @@ CDA 3103 introduces the concepts of Instruction Set Architecture and computing p
 ## CAP 4630
 
 ## CIS 3360
+This course is designed to provide a basic understanding security theory and practice for modern computing environments. Students will acquire proficiency in a number of classic and modern symmetric and public key cryptographic methods. Students will explore important topics in key exchange mechanisms; modes of operation; malware attacks, vulnerabilities, and defenses; network, web, and email security; digital rights management; and legal and ethical issues. 
 
 ## COP 3402
 
