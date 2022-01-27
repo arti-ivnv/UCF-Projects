@@ -25,16 +25,27 @@ Haskell   Intro to Functional Programming / List Comprehensions
 Haskell   Recursion / Types and Type Classes
 
 Haskell   Higher order functions / Modules
+
 Haskell   Input and output
+
 Python    Functions and Values / List Comprehensions
+
 Python    Recursion / Sequences and Collections
+
 Python    Input and Output; .NET and Interoperability
+
 R         Introduction to the language / variables / loops / control
+
 R         Vectors / Lists / Matrices / Arrays / Factors
+
 R         Big Data / Analytics
+
 C#        Introduction to the language / LINQ and the functional aspects of C#
+
 C#        LINQ
+
 C#        C# User Interface Programs / Multithreading and Parallelism
+
 C#        C# and .NET Graphics  / C# Networking
 
 ## COP 4600
