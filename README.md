@@ -4,13 +4,13 @@ In this repository I have the projects from my university classes.
 ## COP 3223 (Introduction to Programming with C)
 Course covers basic and some of the advanced concepts of a C language.
 
-## CDA 3103C (Computer logic)
+## CDA 3103C (Computer Logic)
 CDA 3103 introduces the concepts of Instruction Set Architecture and computing performance. This includes logic design, computer arithmetic, the MIPS assembly language, data path and control unit design, and memory hierarchies.
 
 ## CAP 4630
 
-## CIS 3360
-This course is designed to provide a basic understanding security theory and practice for modern computing environments. Students will acquire proficiency in a number of classic and modern symmetric and public key cryptographic methods. Students will explore important topics in key exchange mechanisms; modes of operation; malware attacks, vulnerabilities, and defenses; network, web, and email security; digital rights management; and legal and ethical issues. 
+## CIS 3360 (Security in Computing)
+This course is designed to provide a basic understanding security theory and practice for modern computing environments. Students will acquire proficiency in a number of classic and modern symmetric and public key cryptographic methods. Students will explore important topics in key exchange mechanisms; modes of operation; malware attacks, vulnerabilities, and defenses; network, web, and email security; digital rights management; and legal and ethical issues.
 
 ## COP 3402
 
