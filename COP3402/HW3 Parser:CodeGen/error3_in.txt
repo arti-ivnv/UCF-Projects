@@ -1,0 +1,9 @@
+const v = 12, c = ; 
+var a, b, d, z;
+a:= a - b
+begin
+if a>d then a:=a-c;
+read a;
+a := b + z;
+end
+. 
