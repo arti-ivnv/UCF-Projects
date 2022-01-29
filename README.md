@@ -19,7 +19,7 @@ This course is designed to provide a basic understanding security theory and pra
 ## COP 3402 (Systems Software)
 This course is designed to provide a fundamental  understanding of real and virtual machines as language processor and the implementation of compilers. We will study the processor as an instruction interpreter. Compilers, assemblers,  linkers and loaders, and virtual machines will be presented as systems software  for program development. An introduction to Operating system will be given.
 
-## COP 3502C
+## COP 3502C (Computer Science 1)
 This is an introductory course on data structures and the design and analysis of algorithms.
 
 Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency.
@@ -34,7 +34,7 @@ sorting techniques
 
 search algorithms
 
-## COP 3503C
+## COP 3503C (Computer Science 2)
 This is an advanced course on data structures and the design and analysis of algorithms.
 
 Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency.
@@ -116,4 +116,4 @@ Cloud-based distributed enterprise applications.
 
 
 ## P.S.
-This repository created for the job searching purposes. Any cheating actions will go under the student conduct policies. Please be honest with your school and yourself. If any of the professors has any issues with the material I am providing in this repository please contact me (arti.ivnv@gmail.com) and I will immediately delete certain material. 
+This repository created for the job searching purposes. Any cheating actions will go under the student conduct policies. Please be honest with your school and yourself. If any of the professors has any issues with the material I am providing in this repository please contact me (arti.ivnv@gmail.com) and I will immediately delete certain material.
