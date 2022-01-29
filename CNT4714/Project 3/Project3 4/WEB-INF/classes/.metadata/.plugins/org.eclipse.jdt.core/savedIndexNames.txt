@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/usr/local/apache-tomcat-10.0.8/webapps/Project 3/WEB-INF/classes/.metadata/.plugins/org.eclipse.jdt.core
+224007895.index
+3622984261.index

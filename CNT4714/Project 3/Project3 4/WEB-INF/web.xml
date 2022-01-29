@@ -1,0 +1,27 @@
+<web-app>
+  <display-name>
+    CNT 4714 Summer 2021 Project 3 WebApp
+  </display-name>
+  <description>
+    University: UCF
+    Class: CNT 4713
+    Date: 7 / 2021
+    Instructor: Dr. Llewellyn
+    Student: Artem Ivanov - NID: 4131859
+  </description>
+
+  <servlet>
+    <servlet-name>Project3Servlet</servlet-name>
+    <description>
+      A servlet that takes text from a front-end jsp and connects to a MySQL db,
+      queries from the front end are executed against the database and results
+      are returned to display on the web app.
+    </description>
+    <servlet-class> MySQLServlet </servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Project3Servlet</servlet-name>
+    <url-pattern>/MySQLServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
