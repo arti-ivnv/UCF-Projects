@@ -20,6 +20,19 @@ This course is designed to provide a basic understanding security theory and pra
 This course is designed to provide a fundamental  understanding of real and virtual machines as language processor and the implementation of compilers. We will study the processor as an instruction interpreter. Compilers, assemblers,  linkers and loaders, and virtual machines will be presented as systems software  for program development. An introduction to Operating system will be given.
 
 ## COP 3502C
+This is an introductory course on data structures and the design and analysis of algorithms.
+
+Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency. 
+
+Also covered:
+
+recursion
+
+data structures such as arrays, linked lists, stacks, queues, binary trees, binary heaps, and hash tables
+
+sorting techniques
+
+search algorithms
 
 ## COP 3503C
 
