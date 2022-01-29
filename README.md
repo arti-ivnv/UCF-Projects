@@ -22,7 +22,7 @@ This course is designed to provide a fundamental  understanding of real and virt
 ## COP 3502C
 This is an introductory course on data structures and the design and analysis of algorithms.
 
-Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency. 
+Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency.
 
 Also covered:
 
@@ -35,6 +35,27 @@ sorting techniques
 search algorithms
 
 ## COP 3503C
+This is an advanced course on data structures and the design and analysis of algorithms.
+
+Developing formal, mathematical techniques for analyzing algorithms in terms of time and space efficiency.
+
+Also covered:
+
+recursion
+data structures such as trees (binary search trees, AVL trees, 2-4 trees, and B-trees), skip lists, hash tables, graphs, and probabilistic data structures
+
+sorting algorithms
+
+graph algorithms
+
+backtracking
+
+divide and conquer
+
+greedy algorithms
+
+dynamic programming
+
 
 ## COP 4020 (Programming Languagea)
 Haskell   Intro to Functional Programming / List Comprehensions
@@ -95,4 +116,4 @@ Cloud-based distributed enterprise applications.
 
 
 ## P.S.
-This repository created for the job searching purposes. Any cheating actions will go under the student conduct policies. Please be honest with your school and yourself.
+This repository created for the job searching purposes. Any cheating actions will go under the student conduct policies. Please be honest with your school and yourself. If any of the professors has any issues with the material I am providing in this repository please contact me (arti.ivnv@gmail.com) and I will immediately delete certain material. 
