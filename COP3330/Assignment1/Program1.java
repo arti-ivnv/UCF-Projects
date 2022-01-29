@@ -2,7 +2,6 @@
 /**
  *
  * @author Artem Ivanov
- * 4131859
  * Program1
  * Program that prints different types of triangles
  */

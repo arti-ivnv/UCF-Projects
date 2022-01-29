@@ -1,6 +1,5 @@
 /*
  * @author Artem Ivanov
- * 4131859
  * Assignment1
  * Program is doing:
     1)by pressing sum: factorial from 1 to 50 (final 1225) as a background proccess
@@ -49,14 +48,14 @@ private Service<Void> backgroundThread;
 //Creating Button id
 @FXML private Button add_sum_bt;
 
-@Override 
+@Override
 public void initialize(URL location, ResourceBundle resources)
-{ 
+{
 }
 
     //function that allows us to add 1 to the sum during the process.
     @FXML
-    void didClickAddOneSumButton(ActionEvent event) 
+    void didClickAddOneSumButton(ActionEvent event)
     {
         txt_add_sum.setText((Integer.parseInt(txt_sum.getText())+1)+"");
     }
@@ -64,18 +63,18 @@ public void initialize(URL location, ResourceBundle resources)
 
      //function that allows us to adding one to the variable(stats at 0) as much as we want, works separately from sum.
     @FXML
-    void didClickAddOneButton(ActionEvent event) 
+    void didClickAddOneButton(ActionEvent event)
     {
         txt_add.setText((Integer.parseInt(txt_add.getText())+1)+"");
 
     }
 
-     //function that is counting and addind from 1 to 50.In other words, factorial of 50 (50!) 
+     //function that is counting and addind from 1 to 50.In other words, factorial of 50 (50!)
     @FXML
-    void didClickSumButton(ActionEvent event) 
+    void didClickSumButton(ActionEvent event)
     {
         sum_bt.setDisable(true);
-        
+
         backgroundThread = new Service<Void>()
         {
             @Override
@@ -109,7 +108,7 @@ public void initialize(URL location, ResourceBundle resources)
                 sum_bt.setDisable(false);
             }
         });
-        
+
         txt_sum.textProperty().bind(backgroundThread.messageProperty());
         backgroundThread.restart();
     }

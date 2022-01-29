@@ -1,8 +1,7 @@
 /**
  * @author Artem Ivanov
- * 4131859
  * Assignment6
- * Character Histogram is showing character statistics according to the input string of information. Also, there are two types of output such as Pie Chart and Bar Chart. 
+ * Character Histogram is showing character statistics according to the input string of information. Also, there are two types of output such as Pie Chart and Bar Chart.
  */
 
 
@@ -37,30 +36,30 @@ enum ChartType{barChart, pieChart};
  * @author neslisah
  */
 public class FXMLDocumentController implements Initializable {
-    
-    
-    final int TOTAL_CHARS = 26;  
+
+
+    final int TOTAL_CHARS = 26;
     ChartType mChartType;
     int mChars[];
-    
+
     @FXML
     private Button mButtonClose;
-    
+
     @FXML
     private PieChart mPieChart;
-    
+
     @FXML
     private BarChart mBarChart;
-    
+
     @FXML
     private ComboBox mComboBox = new ComboBox();
-   
+
     @FXML
     private void didClickCloseButton(ActionEvent event){
         Stage stage = (Stage) mButtonClose.getScene().getWindow();
         stage.close();
     }
-    
+
     private String showInputDialog(){
         Dialog<String> dialog = new Dialog<>();
         dialog.setTitle("Input your text");
@@ -71,12 +70,12 @@ public class FXMLDocumentController implements Initializable {
         GridPane gridPane = new GridPane();
         gridPane.setHgap(10);
         gridPane.setVgap(10);
-        
+
         TextField inputText = new TextField();
         inputText.setPromptText("Input Text");
-    
+
         gridPane.add(inputText, 0, 0);
-    
+
         dialog.getDialogPane().setContent(gridPane);
 
         Platform.runLater(()->inputText.requestFocus());
@@ -87,17 +86,17 @@ public class FXMLDocumentController implements Initializable {
             }
             return (null);
         });
-        
+
         Optional<String> result = dialog.showAndWait();
 
         return (result.get());
     }
-    
+
     private void paint(){
-        
+
         XYChart.Series data = new XYChart.Series();
         mBarChart.getData().remove(0, mBarChart.getData().size());//refreshing either Bar Chart
-        
+
         //adding each item and its occurance (for instance 'a', 2) (For Bar Chart)
         data.getData().add(new XYChart.Data("a",mChars[0]));
         data.getData().add(new XYChart.Data("b",mChars[1]));
@@ -125,9 +124,9 @@ public class FXMLDocumentController implements Initializable {
         data.getData().add(new XYChart.Data("x",mChars[23]));
         data.getData().add(new XYChart.Data("y",mChars[24]));
         data.getData().add(new XYChart.Data("z",mChars[25]));
-        
+
         mPieChart.getData().remove(0, mPieChart.getData().size());//refreshing either Pie Chart
-        
+
         //adding each item and its occurance (for instance 'a', 2) (For Pie Chart)
         mPieChart.getData().add(new PieChart.Data("a", mChars[0]));
         mPieChart.getData().add(new PieChart.Data("b", mChars[1]));
@@ -158,42 +157,42 @@ public class FXMLDocumentController implements Initializable {
 
         mBarChart.getData().add(data);
     }
-    
+
     @FXML
     private void didClickInputButton(ActionEvent event) {
-        
+
         Arrays.fill(mChars, 0);
-            
+
         String s = showInputDialog();
-        
+
         if ((s!= null) && (s.trim().length() > 0)){
-            
+
             s = s.toLowerCase();
-            
+
             for (int i=0;i<s.length();i++){
-                
+
                 Character ch = s.charAt(i);
-                
+
                 if (Character.isAlphabetic(ch)){
-                    
+
                     int index = ch - 'a';
                     mChars[index]++;
                 }
             }
-            
+
         }
-        
+
         paint();
     }
-    
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         mChars = new int[TOTAL_CHARS];//initializing mChart array
         mPieChart.setVisible(false);//making mPieChart hidden
         mChartType = ChartType.barChart;//setting mChartType to barChart
         mComboBox.getItems().addAll("Pie Chart","Bar Chart");//adding "BarChart" and "PieChart" to the comboBox
-        mComboBox.getSelectionModel().select("Bar Chart");//setting selected item "BarChart" in the combobox 
-        mComboBox.valueProperty().addListener(new ChangeListener()//adding ChangeListener to ComboBox, and implementing changed event 
+        mComboBox.getSelectionModel().select("Bar Chart");//setting selected item "BarChart" in the combobox
+        mComboBox.valueProperty().addListener(new ChangeListener()//adding ChangeListener to ComboBox, and implementing changed event
                 {
             @Override
             public void changed(ObservableValue observable, Object oldValue, Object newValue) //In the changed event updating the mChartType according to newValue
@@ -205,17 +204,17 @@ public class FXMLDocumentController implements Initializable {
                     mBarChart.setVisible(true);
                     mPieChart.setVisible(false);
                 }
-                else 
+                else
                 {
                   mChartType = ChartType.pieChart;
                     mPieChart.setVisible(true);
-                    mBarChart.setVisible(false);  
+                    mBarChart.setVisible(false);
                 }
             }
                 });
-        
+
         paint();//call the paint
-                    
+
     }
-    
+
 }
