@@ -51,7 +51,9 @@ C#        C# and .NET Graphics  / C# Networking
 
 
 
-## COP 4600
+## COP 4600 (Operating Systems)
+Operating systems structure. Process management. Process scheduling.
+Memory Management. Virtual memory. I/O system. Performance Evaluation.
 
 ## COP 4710
 
