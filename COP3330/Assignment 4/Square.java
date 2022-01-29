@@ -10,30 +10,30 @@ import java.awt.Graphics;
 
 /**
  *
- * @author neslisah
+ * @author Artem Ivanov
  */
 public class Square extends Shape implements I_twoD{
-    
+
     protected int mSide;
 
     Square(Color color, String name, int side){
-        
+
         super (color, name);
         this.mSide = side;
     }
-    
+
     @Override
     public float computeArea() {
-        
+
         return (this.mSide * this.mSide);
     }
 
     @Override
     public float computePerimeter() {
-        
+
         return (4.f * this.mSide);
     }
-    
+
     public void print(){
         System.out.println("Square ("+this.mName+") side : "+this.mSide+" and color : "+this.mColor.toString());
     }

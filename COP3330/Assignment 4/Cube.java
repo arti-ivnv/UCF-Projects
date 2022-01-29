@@ -10,10 +10,10 @@ import java.awt.Graphics;
 
 /**
  *
- * @author neslisah
+ * @author Artem Ivanov
  */
 public class Cube extends Square implements I_threeD{
-    
+
     public boolean mFilled;
 
     public Cube(Color color, String name, int side) {
@@ -21,16 +21,16 @@ public class Cube extends Square implements I_threeD{
     }
 
     public float computeVolume() {
-        
+
         return (this.mSide * this.mSide * this.mSide);
     }
-    
+
     public void print(){
         System.out.println("Cube ("+this.mName+") side : "+this.mSide+" and color : "+this.mColor.toString());
     }
-    
+
     public void paint(Graphics g) {
-        
+
         if (mFilled)
         {
             g.setColor(mColor);
@@ -52,8 +52,8 @@ public class Cube extends Square implements I_threeD{
             g.drawLine(mX-60, mY+40, mX-30, mY+70);
             g.drawLine(mX+40, mY+40, mX+70, mY+70);
         }
-        
-        final int step = 20; 
+
+        final int step = 20;
     }
 
 }

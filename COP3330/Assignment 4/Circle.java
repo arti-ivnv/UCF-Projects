@@ -10,14 +10,14 @@ import java.awt.Graphics;
 
 /**
  *
- * @author neslisah
+ * @author Artem Ivanov
  */
 public class Circle extends Shape implements I_twoD{
-    
+
     private int mRadius;
 
     public Circle(Color color, String name, int radius) {
-        
+
         super(color, name);
         this.mRadius = radius;
         mX = -1;
@@ -45,5 +45,5 @@ public class Circle extends Shape implements I_twoD{
         g.setColor(Color.yellow);
         g.drawOval(mX - 55, mY - 55, mRadius*2, mRadius*2);
     }
-    
+
 }
