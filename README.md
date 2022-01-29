@@ -1,5 +1,5 @@
 # UCF-Projects
-In this repository I have the projects from my university classes.
+In this repository I have some but not all the projects from my university classes.
 
 ## COP 3223 (Introduction to Programming with C)
 Course covers basic and some of the advanced concepts of a C language.
@@ -55,7 +55,26 @@ C#        C# and .NET Graphics  / C# Networking
 Operating systems structure. Process management. Process scheduling.
 Memory Management. Virtual memory. I/O system. Performance Evaluation.
 
-## COP 4710
+## CNT4714 (Enterprise Computing)
+Multi-threaded applications. Communication and synchronization amongst threads.
+
+Networking issues for distributed systems.
+
+Database systems backend connectivity. JDBC and other technologies.
+
+Multi-tier distributed enterprise applications.
+
+Apache HTTP Server, Apache Tomcat Server, GlassFish Server. Server administration issues
+
+Servlet technology.
+
+JSP technology.
+
+PHP technology.
+
+Distributed web applications for the enterprise.
+
+Cloud-based distributed enterprise applications.
 
 ## COP 3330 (Object Oriented Programming using Java)
 This course is designed to provide concepts in object oriented programming (classes, objects, methods, encapsulating, inheritance, interfaces) and the expression of these concepts in the programming language Java.  
