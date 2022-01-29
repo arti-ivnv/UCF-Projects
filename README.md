@@ -7,7 +7,8 @@ Course covers basic and some of the advanced concepts of a C language.
 ## CDA 3103C (Computer Logic)
 CDA 3103 introduces the concepts of Instruction Set Architecture and computing performance. This includes logic design, computer arithmetic, the MIPS assembly language, data path and control unit design, and memory hierarchies.
 
-## CAP 4630
+## CAP 4630 (Artificial Intelligence)
+This course studies topics in Artificial Intelligence. Course topics include AI languages and tools (Python, NumPy, Keras/Tensorflow, and Pytorch), knowledge  representation, fundamental machine learning concepts, and more cutting-edge deep learning technology. Applications includes computer vision and natural language processing.  
 
 ## CIS 3360 (Security in Computing)
 This course is designed to provide a basic understanding security theory and practice for modern computing environments. Students will acquire proficiency in a number of classic and modern symmetric and public key cryptographic methods. Students will explore important topics in key exchange mechanisms; modes of operation; malware attacks, vulnerabilities, and defenses; network, web, and email security; digital rights management; and legal and ethical issues.
