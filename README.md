@@ -57,7 +57,7 @@ greedy algorithms
 dynamic programming
 
 
-## COP 4020 (Programming Languagea)
+## COP 4020 (Programming Languages)
 Haskell   Intro to Functional Programming / List Comprehensions
 
 Haskell   Recursion / Types and Type Classes
