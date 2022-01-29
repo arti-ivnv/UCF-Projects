@@ -1,6 +1,5 @@
 # First Assignment (Python)
 # Artem Ivanov
-# ar286080
 
 def problem1(x, y):
     return x * y
